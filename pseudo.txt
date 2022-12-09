@@ -1,0 +1,14 @@
+ask player for input of rock, paper or scissors
+randomly choose either rock, paper or scissors and store computers choice
+check player's choice against computer based on what the player chose
+if computer lost, display that
+if computer won, display that
+
+
+if (playerChoice == 0 && computerChoice == 0) {
+    console.log("the computer chose " + choiceDisplay + ". A tie! wow.");
+} else if (playerChoice == 0 && computerChoice == 1){
+    console.log("the computer chose " + choiceDisplay + ". You lost. Better luck next time!");
+} else if (playerChoice == 0 && computerChoice == 2) {
+    console.log("the computer chose " + choiceDisplay + ". You won!");
+}
